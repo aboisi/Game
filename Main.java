@@ -10,7 +10,7 @@ public class Main {
         h.name = "ミナト";
         h.hp = 100;
         h.sword = s;//swordフィールドに生成済みの剣インスタンスを代入
-        System.out.println("現在の武器は" + h.sword.name);
+        System.out.println("現在の武器は" + h.sword.name);//h.sword.name→s.nameにもできる？
         System.out.println(h.name + "は" + s.name + "で攻撃した！");//(名前)は(武器)で攻撃した！
 
         Matango m1 = new Matango();//お化けキノコAを生成し、初期化
