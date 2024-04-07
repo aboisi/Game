@@ -8,7 +8,7 @@ public class Hero {
         this.hp = 100;//自分自身のインスタンスのhpフィールドに100を代入する
         System.out.println(this.name + "は、眠って回復した！");
     }
-    public void sit(int sec) {//(int sec)難病座るか引数で受け取る
+    public void sit(int sec) {//(int sec)何秒座るか引数で受け取る
         this.hp += sec;//座る秒数だけHPを増やす
         System.out.println(this.name + "は、" + sec + "秒座った！");
         System.out.println("HPが" + sec + "ポイント回復した");
