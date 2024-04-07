@@ -22,6 +22,9 @@ public class Main {
 
         Hero h2 = new Hero("アサカ");
 
+        Hero h3 = new Hero();
+        System.out.println(h3.name);
+
         Wizard w = new Wizard();
         w.name = "スガワラ";
         w.hp = 50;
