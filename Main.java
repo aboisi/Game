@@ -1,25 +1,26 @@
 public class Main {
     public static void main(String[] args) {
         //インスタンス生成と同時にコンストラクタによってHPに100が代入される
-        Hero h = new Hero();
-        System.out.println(h.hp);
-        
+        // Hero h = new Hero();
+        // System.out.println(h.hp);
+
         //剣を生成
         Sword s = new Sword();
         s.name = "炎の剣";
         s.damage = 10;
         //勇者を生成
-        Hero h1 = new Hero();//Heroクラスからインスタンスを生成し、変数hに入れる
+        // Hero h1 = new Hero();//Heroクラスからインスタンスを生成し、変数hに入れる
         //フィールドに初期値をセット
-        h1.name = "ミナト";
-        h1.hp = 100;
-        h1.sword = s;//swordフィールドに生成済みの剣インスタンスを代入
-        System.out.println("現在の武器は" + h1.sword.name);//h.sword.name→s.nameにもできる？
-        System.out.println(h1.name + "は" + s.name + "で攻撃した！");//(名前)は(武器)で攻撃した！
+        // h1.name = "ミナト";
+        // h1.hp = 100;
+        // h1.sword = s;//swordフィールドに生成済みの剣インスタンスを代入
+        // System.out.println("現在の武器は" + h1.sword.name);//h.sword.name→s.nameにもできる？
+        // System.out.println(h1.name + "は" + s.name + "で攻撃した！");//(名前)は(武器)で攻撃した！
+        Hero h1 = new Hero("ミナト");
+        System.out.println(h1.hp);
+        System.out.println(h1.name);
 
-        Hero h2 = new Hero();
-        h2.name = "アサカ";
-        h2.hp = 100;
+        Hero h2 = new Hero("アサカ");
 
         Wizard w = new Wizard();
         w.name = "スガワラ";
