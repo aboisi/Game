@@ -1,5 +1,9 @@
 public class Main {
     public static void main(String[] args) {
+        //インスタンス生成と同時にコンストラクタによってHPに100が代入される
+        Hero h = new Hero();
+        System.out.println(h.hp);
+        
         //剣を生成
         Sword s = new Sword();
         s.name = "炎の剣";
