@@ -27,7 +27,8 @@ public class Hero {
         System.out.println(this.name + "は攻撃した！");
         System.out.println("敵に5ポイントのダメージをあたえた！");
     }
-    public Hero() {
+    public Hero(String name) { //自動的に実行(h.Heroのように直接呼び出すことはできない)
         this.hp = 100; //hpフィールドを100で初期化
+        this.name = name;//引数の値でnameフィールドを初期化
     }
 }
