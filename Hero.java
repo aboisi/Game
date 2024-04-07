@@ -32,7 +32,6 @@ public class Hero {
         this.name = name;//引数の値でnameフィールドを初期化
     }
     public Hero() {
-        this.hp =100;
-        this.name = "ダミー";
+        this("ダミー");//this(引数); 別コンストラクタの呼び出し
     }
 }
