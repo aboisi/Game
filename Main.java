@@ -8,6 +8,7 @@ public class Main {
         Sword s = new Sword();
         s.name = "炎の剣";
         s.damage = 10;
+
         //勇者を生成
         // Hero h1 = new Hero();//Heroクラスからインスタンスを生成し、変数hに入れる
         //フィールドに初期値をセット
@@ -40,6 +41,10 @@ public class Main {
         Matango m2 = new Matango();//お化けキノコBを生成し、初期化
         m2.hp = 48;
         m2.suffix = 'B';
+
+        SuperHero sh = new SuperHero();//スーパーヒーローを生成し、初期化
+        sh.run();
+        System.out.println("スーパーヒーロー" + sh.name);
 
         //冒険の始まり
         h1.slip();
