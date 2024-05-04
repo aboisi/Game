@@ -1,4 +1,4 @@
-public class Main {
+public final class Main { //finalを付けると継承できない
     public static void main(String[] args) {
         //インスタンス生成と同時にコンストラクタによってHPに100が代入される
         // Hero h = new Hero();
