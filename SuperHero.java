@@ -8,5 +8,8 @@ public class SuperHero extends Hero {
     public void land() {
         this.flying = false;
         System.out.println("着地した！");
-}
+    }
+    public void run() { //オーバーライド(親クラスにも定義してあるが、子クラスでも再定義)
+        System.out.println(this.name + "は撤退した");
+    }
 }
