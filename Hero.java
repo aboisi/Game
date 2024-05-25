@@ -34,4 +34,7 @@ public class Hero {
     public Hero() {
         this("ダミー");//this(引数); 別コンストラクタの呼び出し
     }
+    // public Hero() {
+    //     System.out.println("Heroのコンストラクタが動作");
+    // }
 }

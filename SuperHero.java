@@ -18,4 +18,7 @@ public class SuperHero extends Hero {
             super.attack();
         }
     }
+    // public SuperHero() {
+    //     System.out.println("SuperHeroのコンストラクタが動作");
+    // }
 }
